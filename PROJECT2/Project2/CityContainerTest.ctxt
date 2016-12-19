@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityContainerTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ CityContainerTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ citycontainertest1()
+comment3.text=\r\n\ A\ test\ method\ that\ makes\ sure\ the\ queue\ in\ the\r\n\ city\ container\ class\ is\ not\ null\r\n
+comment4.params=
+comment4.target=void\ citycontainertest2()
+comment4.text=\r\n\ A\ test\ method\ that\ make\ sure\ that\ the\ size\ of\ the\ \r\n\ city\ container\ queue\ is\ equal\ to\ the\ amoutn\ of\ cities\ \r\n\ in\ the\ test\ file,\ 10\r\n
+comment5.params=
+comment5.target=void\ citycontainertest3()
+comment5.text=\r\n\ A\ test\ method\ that\ makes\ sure\ that\ the\ get\ city\ method\ is\ r\r\n\ returning\ something\r\n
+comment6.params=
+comment6.target=void\ citycontainertest4()
+comment6.text=\r\n\ A\ test\ method\ that\ makes\ sure\ that\ the\ size\ of\ the\ city\ contianer\r\n\ is\ equal\ to\ the\ get\ size\ method\r\n
+numComments=7

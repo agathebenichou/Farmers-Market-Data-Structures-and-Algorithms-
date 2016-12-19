@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityContainer()
+comment0.text=\r\n\ The\ class\ constructor\r\n
+comment1.params=city
+comment1.target=boolean\ addCity(City)
+comment1.text=\r\n\ A\ method\ that\ adds\ City\ objects\ to\ the\ city\ container\ and\ \r\n\ returns\ true\ upon\ successful\ insertion\ or\ false\ if\ insertion\r\n\ was\ unsuccessful\r\n\ \r\n\ @param\ The\ City\ object\ to\ insert\ into\ the\ city\ container\r\n\ @return\ True\ or\ false\ depending\ on\ the\ success\ of\ the\ insertion\r\n
+comment2.params=index
+comment2.target=City\ getCity(int)
+comment2.text=\r\n\ A\ method\ which\ returns\ the\ City\ object\ given\ a\ certain\ index\r\n\ \r\n\ @param\ The\ integer\ index\ of\ the\ city\ object\ you\ want\ to\ get\r\n\ @return\ The\ City\ object\ at\ that\ given\ index\r\n
+comment3.params=
+comment3.target=java.util.LinkedList\ totalCityList()
+comment3.text=\r\n\ A\ method\ that\ returns\ the\ CityContainer\ data\ structure\ \r\n\ which\ is\ a\ LinkedList\ that\ stores\ City\ objects\r\n\ \r\n\ @return\ The\ CityContainer\ data\ sturcutre,\ a\ LinkedList\r\n
+comment4.params=
+comment4.target=int\ getContainerSize()
+comment4.text=\r\n\ A\ method\ that\ returns\ the\ size\ of\ the\ CityContainer\ data\ structure\r\n\ \r\n\ @return\ The\ Integer\ Size\ of\ the\ data\ structure\r\n
+comment5.params=
+comment5.target=City\ randomlyAssignCity()
+comment5.text=\r\n\ A\ method\ that\ randomly\ returns\ City\ objects\ in\ the\ City\r\n\ Container\ by\ generating\ a\ random\ number\ from\ 1\ to\ the\ size\ of\ the\ \r\n\ CityContainer\ and\ then\ getting\ the\ City\ that\ is\ at\ the\ index\r\n\ of\ the\ randomly\ generated\ number\r\n\ \r\n\ @return\ The\ City\ object\ that\ has\ been\ randomly\ chosen\r\n
+numComments=6

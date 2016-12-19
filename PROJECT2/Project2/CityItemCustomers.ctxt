@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityItemCustomers()
+comment0.text=\r\n\ The\ class\ constructor.\r\n\ \r\n\ Instatiates\ all\ the\ classes\ and\ data\ structures.\r\n\ Passes\ through\ the\ list\ of\ cities\ and\ items\ from\ other\ classes\ to\ be\ stored\ in\ a\ data\ structure\ in\ this\ class.\r\n\ \r\n\ Creates\ the\ outline\ of\ the\ main\ data\ structure\ used\ in\ the\ class.\ \r\n\ For\ every\ number\ of\ cities\ in\ the\ cityNames\ list,\ make\ those\ cities\ each\ their\ own\ keys\ with\ values\ of\ a\ new\ HashMap.\r\n\ For\ every\ item\ a\ customer\ could\ have,\ get\ that\ item\ and\ make\ that\ a\ key\ of\ the\r\n\ new\ HashMap\ and\ the\ value\ a\ LinkedList\r\n\ which\ stores\ the\ customers\ in\ that\ city\ who\ have\ that\ item\ in\ their\ list.\r\n
+comment1.params=
+comment1.target=void\ runSimulation()
+comment1.text=\r\n\ This\ method\ generates\ the\ total\ amount\ of\ customers\ and\ then\ it\ stores\ the\ amount\ of\ customers\ generated\r\n\ into\ a\ variable.\ \r\n\ \r\n\ It\ calls\ the\ method\ to\ sort\ all\ the\ customers\ that\ were\ generated\ and\ then\ it\ prints\ out\ the\ list\ with\ all\r\n\ the\ customers\ at\ the\ right\ places.\r\n
+comment2.params=
+comment2.target=void\ sortCustomers()
+comment2.text=\r\n\ This\ method\ gets\ each\ customer\ generated\ in\ the\ CustomerTotal\ class\ and\ stores\r\n\ that\ into\ a\ Queue\ in\ this\ class.\r\n\ \r\n\ For\ every\ city\ there\ is,\ it\ takes\ a\ city\ name\ out\ of\ the\ list\ and\ stores\ it\ into\ a\r\n\ city\ variable.\ \r\n\ For\ every\ customer\ that\ is\ supposed\ to\ be\ in\ that\ city,\ it\ passes\ through\ that\r\n\ customer\ and\ the\ city\ name\ to\ the\ next\ method.\r\n
+comment3.params=customer\ city
+comment3.target=void\ itemSort(Customer,\ City)
+comment3.text=\r\n\ For\ every\ item\ a\ Customer\ could\ have,\ it\ gets\ one\ item\ and\ stores\ that\ into\ a\ variable.\r\n\ If\ the\ Customer\ contains\ that\ need\ in\ their\ list,\ then\ it\ adds\ the\ customer\ to\ the\r\n\ Linked\ list\ of\ that\ item\ in\ that\ city.\r\n\ \r\n\ @param\ the\ Customer\ who\ needs\ to\ be\ stored\ in\ LinkedList\ based\ on\ its\ needs\r\n\ @param\ the\ City\ of\ which\ that\ customers\ belongs\ to\r\n\ \r\n
+comment4.params=
+comment4.target=void\ printData()
+comment4.text=\r\n\ A\ method\ which\ prints\ out\ the\ data\ structure\ in\ this\ class\ \r\n\ when\ called.\r\n
+comment5.params=city\ item
+comment5.target=java.util.LinkedList\ returnList(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ This\ method\ print\ the\ LinkedList\ of\ Customers\ within\ a\ city\r\n\ who\ have\ an\ item\ in\ their\ list.\r\n\ \r\n\ @param\ The\ city\ desired\r\n\ @param\ the\ item\ desired\r\n\ \r\n
+comment6.params=city
+comment6.target=java.util.NavigableMap\ returnGoods(java.lang.String)
+comment6.text=\r\n\ This\ method\ is\ used\ for\ the\ "findgoods"\ command\ from\ the\ input\ command.\ \r\n\ \r\n\ The\ size\ of\ each\ LinkedList\ in\ that\ city\ is\ found,\ and\ that\ integer\ is\ stored\ into\ \r\n\ a\ TreeMap\ with\ its\ correspondin\ good.\ The\ key\ is\ the\ name\ of\ the\ item\ and\ the\ value\r\n\ is\ the\ size\ of\ the\ LinkedList\ for\ thatite,\ or\ the\ amount\ of\ customers\ in\ that\ city\r\n\ who\ purchased\ that\ item.\r\n\ \r\n\ The\ TreeMap\ is\ printed\ out\ using\ Navigable\ Map,\ which\ prints\ out\ the\ keys\ with\ the\ \r\n\ largest\ values\ first\ and\ the\ keys\ with\ the\ smalllest\ values\ last.\ \r\n
+comment7.params=
+comment7.target=void\ clear()
+comment7.text=\r\n\ This\ method\ clears\ out\ all\ the\ data\ in\ both\ HashMaps\ and\ the\ LinkedLists\r\n\ \r\n
+numComments=8

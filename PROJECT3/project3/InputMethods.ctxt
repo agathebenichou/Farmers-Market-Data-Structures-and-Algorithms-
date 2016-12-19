@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=costPerDistanceUnit
+comment0.target=InputMethods(double)
+comment0.text=\r\n\ The\ class\ constructor\ that\ takes\ in\ the\ cost\ per\ distance\ unit\ of\ traversing\ one\ weight\ of\ an\ edge.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Creates\ an\ instance\ of\ the\ class\ the\ passes\ through\ the\ the\ args\ that\ is\ the\ cost\ per\ distance\ unit.\r\n\ Runs\ the\ method\ that\ runs\ the\ methods\ that\ run\ the\ program.\r\n\ \r\n\ Please\ put\ a\ cost\ per\ distance\ unit\ inside\ the\ brackets\ in\ quotations.\r\n\ The\ cost\ per\ distance\ unit\ should\ be\ a\ double\ such\ as\ 1.00\ or\ 2.41.\ \r\n\ The\ correct\ format\ should\ be\ {"1.23"}.\ Press\ okay\ and\ program\ will\ run.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ This\ method\ runs\ the\ methods\ that\ runs\ the\ entire\ simulation\r\n
+comment3.params=
+comment3.target=void\ readFile()
+comment3.text=\r\n\ The\ method\ refers\ to\ the\ "init"\ input\ command.\ It\ will\ open\ and\ run\r\n\ the\ ReadFile\ class\ which\ reads\ the\ cities.txt\ file\ and\ stores\ the\ city\r\n\ information\ in\ the\ approrpiate\ lists\ and\ creates\ the\ graph.\r\n
+comment4.params=costPerDistanceUnit
+comment4.target=void\ runProgram(double)
+comment4.text=\r\n\ This\ method\ refers\ to\ the\ "run"\ input\ command.\ \r\n
+numComments=5

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=needName
+comment0.target=Need(java.lang.String)
+comment0.text=\r\n\ The\ Need\ class\ constructur\ which\ takes\ in\ the\ name\ of\r\n\ the\ need.\r\n\ \r\n\ @param\ String\ name\ of\ need.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getNeedName()
+comment1.text=\r\n\ A\ getter\ method\ which\ returns\ the\ name\ of\ the\r\n\ need.\ \r\n\ \r\n\ @return\ the\ String\ name\ of\ the\ need.\r\n
+numComments=2

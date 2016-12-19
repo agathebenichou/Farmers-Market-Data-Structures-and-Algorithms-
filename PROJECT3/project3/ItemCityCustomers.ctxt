@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=customerContainer\ cityContainer\ needContainer
+comment0.target=ItemCityCustomers(CustomerContainer,\ CityContainer,\ NeedContainer)
+comment0.text=\r\n\ The\ class\ constructor.\r\n\ \r\n\ Instatiates\ all\ the\ classes\ and\ data\ structures.\r\n\ Passes\ through\ the\ list\ of\ cities\ and\ items\ from\ other\ classes\ to\ be\ stored\ in\ a\ data\ structure\ in\ this\ class.\r\n\ \r\n\ Creates\ the\ outline\ of\ the\ main\ data\ structures\ used\ in\ the\ class.\ \r\n\ The\ first\ one,\ called\ itemCityMap,\ is\ a\ HashMap\ where\ the\ key\ is\ the\ name\ of\ each\ need\ and\ the\ value\ of\ each\ are\ linked\ lists\r\n\ that\ contain\ the\ cities\ where\ customers\ who\ have\ that\ need\ on\ their\ list\ live\r\n\ \r\n\ The\ second\ map,\ called\ itemCustMap,\ is\ a\ HashMap\ where\ the\ key\ are\ the\ integer\ of\ the\ cities\ and\ the\ value\ of\ each\ are\ linked\ lists\r\n\ that\ contain\ the\ the\ customers\ who\ live\ in\ that\ city\r\n\ \r\n
+comment1.params=cityContainer\ customerContainer\ needContainer
+comment1.target=void\ runSimulation1(CityContainer,\ CustomerContainer,\ NeedContainer)
+comment1.text=\r\n\ This\ method\ generates\ the\ total\ amount\ of\ customers\ and\ then\ it\ stores\ the\ amount\ of\ customers\ generated\r\n\ into\ a\ variable.\ \r\n\ \r\n\ It\ calls\ the\ method\ to\ sort\ all\ the\ customers\ that\ were\ generated\ and\ then\ it\ prints\ out\ the\ list\ with\ all\r\n\ the\ customers\ at\ the\ right\ places.\r\n
+comment2.params=need
+comment2.target=java.util.LinkedList\ getCitiesWithNeed(java.lang.String)
+comment2.text=\r\n\ This\ method\ returns\ the\ LinkedList\ of\ Integers\ which\ stores\ the\ City\ object\ keys\ for\ a\ need.\ Each\r\n\ need\ has\ their\ own\ Linked\ List\ of\ Integers.\ \r\n\ \r\n\ @param\ The\ String\ need\ whose\ LinkedList\ of\ cities\ where\ customers\ who\ have\ that\ need\ are\r\n\ @return\ The\ LinkedList\ of\ Integer\ City\ where\ Customer\ objects\ are\ who\ have\ that\ need.\r\n
+comment3.params=need
+comment3.target=int\ getCitiesSizeWithNeed(java.lang.String)
+comment3.text=\r\n\ This\ method\ returns\ the\ size\ of\ the\ Linked\ List\ of\ cities\ for\ a\ good.\r\n\ \r\n\ @param\ The\ String\ need\ whose\ size\ of\ the\ LinkedList\ of\ cities\ you\ want\r\n\ @return\ The\ amount\ of\ cities\ who\ have\ customers\ with\ that\ given\ good\r\n
+comment4.params=good\ index
+comment4.target=int\ getCityWithNeedAndIndex(java.lang.String,\ int)
+comment4.text=\r\n\ This\ method\ returns\ an\ Integer\ that\ represents\ a\ city\ that\ contains\ a\ Customer\ with\r\n\ the\ specified\ need.\ \r\n\ \r\n\ @param\ The\ STring\ need\ whose\ cities\ you\ want\ to\ look\ at\ and\ the\ index\ of\ the\ LinkedList\ you\ want\r\n\ @return\ The\ city\ reference\ integer\ of\ the\ city\ who\ has\ a\ customer\ with\ the\ need\ and\ is\ at\ the\ index\r\n
+comment5.params=city
+comment5.target=java.util.LinkedList\ getCustomersWithCity(int)
+comment5.text=\r\n\ This\ method\ returns\ the\ LinkedList\ of\ Customers\ in\ a\ specified\ city.\ \r\n\ \r\n\ @param\ The\ city\ reference\ number\ whose\ linked\ list\ of\ customer\ objects\ you\ want\r\n\ @return\ The\ LinkedList\ of\ Customer\ objects\ in\ that\ specified\ city\r\n
+comment6.params=city
+comment6.target=int\ getCustomerSizeWithCity(int)
+comment6.text=\r\n\ This\ method\ returns\ the\ amount\ of\ customers\ in\ a\ city.\r\n\ \r\n\ @param\ The\ Integer\ city\ reference\ of\ the\ City\ whose\ amount\ of\ customers\ you\ want\r\n\ @return\ The\ amount\ of\ customers\ that\ are\ in\ a\ City\r\n
+comment7.params=city\ index
+comment7.target=Customer\ getCustomerWithCityAndIndex(int,\ int)
+comment7.text=\r\n\ This\ method\ returns\ a\ Customer\ object\ in\ a\ specified\ city\ in\ a\ specified\ index\ of\ the\ LinkedList\r\n\ \r\n\ @param\ The\ city\ refeence\ number\ of\ the\ city\ and\ the\ index\ of\ the\ customer\ in\ the\ Linked\ List\r\n\ @return\ The\ customer\ object\ in\ that\ city\ at\ that\ reference\ number\r\n
+numComments=8

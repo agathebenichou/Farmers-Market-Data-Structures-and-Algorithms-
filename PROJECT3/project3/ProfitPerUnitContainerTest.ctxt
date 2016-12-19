@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ProfitPerUnitContainerTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ ProfitPerUnitContainerTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ addProfitTest()
+comment3.text=\r\n\ A\ test\ method\ that\ asserts\ that\ the\ goods\ and\ their\ profits\ \r\n\ are\ properly\ being\ inserted\ and\ returning\ true\ and\ is\ not\ returning\ null.\r\n
+comment4.params=
+comment4.target=void\ getProfitTest()
+comment4.text=\r\n\ A\ test\ method\ that\ makes\ sure\ that\ the\ getProfit\ method\ is\ \r\n\ returning\ the\ correct\ profit\ and\ is\ not\ returning\ null.\r\n
+numComments=5

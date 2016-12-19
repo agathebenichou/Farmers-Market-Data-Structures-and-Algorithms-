@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NeedContainer()
+comment0.text=\r\n\ The\ NeedContainer\ constructor\ instatiates\ the\ Need\ object\ class\r\n\ and\ it\ creates\ object\ instances\ of\ each\ need.\r\n
+comment1.params=
+comment1.target=java.util.LinkedList\ list()
+comment1.text=\r\n\ This\ getter\ method\ returns\ the\ total\ list\ of\ needs\r\n\ \r\n\ @return\ LinkedList\ which\ stores\ Need\ objects\ a\ customer\ could\ have\r\n
+comment2.params=good
+comment2.target=Need\ getNeedString(java.lang.String)
+comment2.text=\r\n\ A\ getter\ method\ which\ returns\ the\ Need\ object\ that\ matches\ up\r\n\ with\ the\ parameter.\ \r\n\ \r\n\ @param\ The\ String\ of\ the\ good\ whose\ Need\ object\ you\ are\ looking\ for\r\n\ @return\ The\ Need\ object\ whose\ String\ was\ input\r\n
+comment3.params=index
+comment3.target=Need\ getNeedInt(int)
+comment3.text=\r\n\ A\ getter\ method\ which\ returns\ the\ Need\ object\ that\ matches\ up\ with\r\n\ the\ parameter\r\n\ \r\n\ @param\ The\ integer\ of\ the\ index\ whose\ Need\ object\ you\ want\r\n\ @return\ The\ Need\ object\ whose\ integer\ was\ input\r\n
+comment4.params=
+comment4.target=int\ listSize()
+comment4.text=\r\n\ This\ getter\ method\ returns\ the\ size\ of\ the\ total\ list\ of\ needs,\ \r\n\ which\ is\ always\ 6.\r\n\ \r\n\ @return\ the\ Integer\ of\ list\ of\ needs\r\n
+numComments=5

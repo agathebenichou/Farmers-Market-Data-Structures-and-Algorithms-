@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NeedTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ NeedTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ needtest1()
+comment3.text=\r\n\ A\ test\ method\ that\ makes\ sure\ that\ the\ get\ need\ name\ method\r\n\ in\ the\ need\ class\ is\ not\ null\r\n
+comment4.params=
+comment4.target=void\ needtest2()
+comment4.text=\r\n\ A\ test\ method\ that\ make\ susre\ that\ the\ get\ need\ name\r\n\ method\ in\ the\ need\ class\ is\ not\ null\r\n
+comment5.params=
+comment5.target=void\ needtest3()
+comment5.text=\r\n\ A\ test\ method\ that\ makes\ usre\ that\ the\ get\ need\ name\ method\r\n\ is\ equal\ to\ the\ name\ of\ the\ need\ in\ the\ parameter\r\n\ upon\ creation\r\n
+comment6.params=
+comment6.target=void\ needtest4()
+comment6.text=\r\n\ A\ test\ method\ that\ makes\ usre\ that\ the\ get\ need\ name\ method\r\n\ is\ equal\ to\ the\ name\ of\ the\ need\ in\ the\ parameter\r\n\ upon\ creation\r\n
+numComments=7

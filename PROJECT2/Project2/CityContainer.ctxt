@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityContainer()
+comment1.params=
+comment1.target=City\ getCity()
+comment1.text=\r\n\ A\ getter\ method\ which\ polls\ the\ first\ String\ element\ out\ of\ the\ Queue\r\n\ which\ stores\ Strings\ of\ cities\ which\ were\ read\ from\ the\ file.\ \r\n\ \r\n\ @return\ the\ first\ City\ in\ the\ form\ of\ String\r\n
+comment2.params=
+comment2.target=java.util.LinkedList\ totalCityList()
+comment3.params=
+comment3.target=int\ getCitySize()
+comment3.text=\r\n\ A\ getter\ method\ which\ returns\ the\ size\ of\ the\ Queue\ which\ contains\r\n\ all\ the\ cities\ read\ from\ the\ text\ file.\ \r\n\ \r\n\ @return\ the\ first\ City\ in\ the\ form\ of\ String\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ A\ method\ which\ prints\ out\ the\ Hash\ Map\ which\ contains\ the\ cities.\r\n
+numComments=5

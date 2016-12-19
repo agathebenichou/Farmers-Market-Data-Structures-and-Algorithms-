@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cityReference
+comment0.target=City(int)
+comment0.text=\r\n\ The\ City\ Constructor\ which\ takes\ in\ the\ Integer\ reference\ of\ the\ city.\r\n
+comment1.params=
+comment1.target=java.lang.Integer\ getCityReference()
+comment1.text=\r\n\ \ A\ getter\ method\ for\ the\ name\ of\ the\ City;\r\n\ \ \r\n\ \ @return\ the\ Integer\ name\ of\ the\ city.\r\n
+numComments=2

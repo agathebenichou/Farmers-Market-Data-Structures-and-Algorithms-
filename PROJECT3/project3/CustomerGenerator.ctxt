@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CustomerGenerator()
+comment0.text=\r\n\ Class\ constructor.\r\n
+comment1.params=city
+comment1.target=Customer\ CustomerGenerator(CityContainer)
+comment1.text=\r\n\ Method\ that\ produced\ random\ id\ numbers\ from\ 0\ to\ 100\ for\ the\ customers\ to\ keep\ track\ of\ them\r\n\ Generates\ an\ array\ list\ of\ needs\ and\ assigns\ a\ new\ random\ ish\ list\ to\ each\ customer\r\n\ Creates\ the\ customer\ object\r\n\ \r\n\ @param\ The\ CityContainer\ class\ that\ has\ the\ list\ of\ cities\r\n\ @return\ A\ Customer\ object.\r\n
+numComments=2

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ readFile()
+comment0.text=\r\n\ The\ method\ refers\ to\ the\ "init"\ input\ command.\ It\ will\ open\ and\ run\r\n\ the\ ReadFile\ class\ which\ reads\ the\ cities.txt\ file\ and\ stores\ the\ city\r\n\ information\ in\ the\ approrpiate\ lists.\r\n
+comment1.params=runTime
+comment1.target=void\ runProgram(int)
+comment1.text=\r\n\ This\ method\ refers\ to\ the\ "run"\ input\ command.\ It\ will\r\n\ run\ the\ simulation\ however\ many\ number\ of\ times\ the\ user\r\n\ told\ it\ to\ run\ the\ simulation\ and\ it\ stores\ the\ data\r\n\ into\ its\ appropriate\ containers.\r\n
+comment2.params=
+comment2.target=void\ printData()
+comment2.text=\r\n\ This\ method\ prints\ out\ the\ CIC\ HashMap.\r\n
+comment3.params=city\ item
+comment3.target=void\ list(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ This\ method\ refers\ to\ the\ "list"\ user\ input\ command.\ \r\n\ With\ the\ user\ input\ city\ and\ item,\ it\ will\ print\ out\ the\r\n\ customers\ in\ that\ city\ who\ have\ purchased\ that\ item.\r\n
+comment4.params=city
+comment4.target=void\ findgoods(java.lang.String)
+comment4.text=\r\n\ This\ method\ refers\ to\ the\ "findgoods"\ user\ input\ command.\r\n\ With\ the\ user\ input\ city,\ it\ will\ print\ out\ the\ list\ of\ \r\n\ items\ in\ that\ city\ from\ most\ purchased\ items\ to\ least\r\n\ purchased\ items.\ \r\n\ \r\n\ @param\ the\ City\ whose\ goods\ will\ be\ ordered.\r\n
+comment5.params=item
+comment5.target=void\ findcities(java.lang.String)
+comment5.text=\r\n\ This\ method\ refers\ to\ the\ "findcities"\ user\ input\ command.\r\n\ With\ the\ user\ input\ item,\ it\ will\ print\ out\ the\ list\ of\ \r\n\ cities\ in\ whose\ customers\ bought\ the\ most\ of\ those\ items\ to\ bought\r\n\ the\ least\ of\ those\ items.\r\n\ \r\n\ @param\ the\ Items\ whose\ cities\ will\ be\ ordered.\r\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\r\n\ This\ method\ refers\ to\ the\ "clear"\ user\ input\ command.\r\n\ It\ will\ clear\ all\ data\ in\ both\ containers.\r\n
+numComments=7

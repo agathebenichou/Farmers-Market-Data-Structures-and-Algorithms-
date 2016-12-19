@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ReadFile()
+comment0.text=\r\n\ The\ Constructor\ which\ calls\ all\ the\ methods\ in\ the\ class.\r\n\ First\ it\ initiaizes\ the\ TreeSet\ data\ structure\ using\ the\ Team\ Objects\ to\ be\ \r\n\ stored\ and\ inside\ and\ it\ sorts\ is\ using\ the\ TeamComparator\ ckass.\r\n\ \r\n\ It\ calls\ the\ openFile\ method\ and\ stores\ the\ Scanner\ retrieved\ into\ the\ Scanner\r\n\ open\ variable.\r\n\ \r\n\ It\ parses\ the\ Scanner\ using\ the\ parseFile\ method.\r\n
+comment1.params=file
+comment1.target=java.util.Scanner\ openFile(java.lang.String)
+comment1.text=\r\n\ This\ method\ takes\ in\ the\ name\ of\ the\ File\ to\ be\ opened\ using\ a\ scanner\ and\ \r\n\ outputs\ the\ Scanner\ object.\r\n\ \r\n\ @param\ the\ String\ name\ of\ the\ file\r\n\ @return\ the\ Scanner\ object\ if\ successful\r\n\ @return\ null\ if\ unsuccessful.\r\n
+comment2.params=all
+comment2.target=void\ parseFile(java.util.Scanner)
+comment2.text=\r\n\ A\ method\ which\ reads\ the\ city\ names\ from\ each\ line,\ passes\ that\ name\ into\r\n\ a\ the\ city\ clas\ to\ create\ a\ city\ objecy\ of\ that\ name\ and\ add\ that\ city\r\n\ object\ to\ the\ city\ container\ queue\r\n\ @param\ the\ Scanner\ object\r\n
+numComments=3

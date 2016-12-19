@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UserInput()
+comment0.text=\r\n\ The\ constructor\ which\ creates\ the\ user\ input\ terminal,\ calls\ other\ classes\r\n\ and\ prompts\ the\ user\ if\ the\ scanner\ passes.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ askUser()
+comment1.text=\r\n\ This\ method\ asks\ the\ user\ for\ their\ command\ and\ passes\ that\ command\ through\r\n\ to\ another\ method\ which\ will\ decide\ what\ to\ do\ with\ the\ command.\r\n
+comment2.params=command
+comment2.target=void\ commandPrompt(java.lang.String)
+comment2.text=\r\n\ This\ method\ takes\ in\ the\ command\ that\ the\ put\ into\ the\ terminal.\r\n\ \r\n\ Depending\ on\ the\ command,\ the\ method\ will\ decide\ what\ to\ do\ next.\ \r\n\ If\ the\ command\ is\ list,\ the\ method\ will\ ask\ for\ the\ next\ city\ and\ the\ next\r\n\ item\ and\ pass\ that\ city\ and\ item\ through\ to\ another\ method.\r\n\ If\ the\ command\ is\ findgoods,\ the\ method\ will\ ask\ for\ the\ next\ city\ and\r\n\ pass\ that\ city\ through\ to\ another\ method.\r\n\ If\ the\ command\ is\ findcities,\ the\ method\ will\ ask\ for\ the\ next\ item\ and\ pass\r\n\ that\ item\ through\ to\ another\ method.\r\n\ If\ the\ command\ is\ add,\ the\ method\ asks\ for\ the\ name\ of\ the\ city\ to\ add\ and\r\n\ it\ passes\ that\ name\ to\ another\ method.\ \r\n\ \r\n\ If\ the\ commands\ are\ none\ of\ the\ above,\ it\ passes\ the\ command\ to\ another\ \r\n\ method\ which\ has\ what\ to\ do\ with\ that\ command.\r\n
+comment3.params=command
+comment3.target=void\ commandProgramBasic(java.lang.String)
+comment3.text=\r\n\ This\ method\ takes\ in\ the\ commands\ that\ the\ other\ method\ did\ not\ have.\r\n\ It\ passes\ this\ command\ through\ to\ an\ array\ which\ splits\ the\ command\ if\ it\r\n\ has\ another\ part\ to\ it.\ \r\n\ \r\n\ If\ the\ command\ is\ init,\ it\ prompts\ the\ inputmethods\ class\ to\ read\ the\ file\ \r\n\ and\ pass\ the\ information\ appropriately.\r\n\ If\ the\ command\ is\ run,\ it\ splits\ up\ run\ and\ the\ number\ of\ runs\ following\ it\r\n\ and\ passes\ that\ number\ though\ to\ the\ input\ methods\ class\ to\ run\ the\ \r\n\ program\ however\ many\ number\ of\ times.\ \r\n\ If\ the\ command\ is\ clear,\ it\ prompts\ the\ input\ methods\ class\ to\ clear\ the\ \r\n\ data\ containers.\r\n\ If\ the\ command\ is\ exit,\ it\ closes\ the\ scanner\ class.\r\n\ \r\n\ It\ prompts\ the\ user\ for\ another\ input.\r\n
+comment4.params=city\ item
+comment4.target=void\ commandList(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ If\ the\ user\ put\ in\ the\ command\ list,\ then\ it\ passes\ the\ city\r\n\ and\ the\ item\ desired\ to\ the\ inputmethod\ class\ which\ will\ run\ the\ method.\r\n\ \r\n\ This\ method\ asks\ the\ user\ for\ another\ command.\r\n
+comment5.params=city
+comment5.target=void\ commandFindGoods(java.lang.String)
+comment5.text=\r\n\ If\ the\ user\ put\ in\ the\ command\ findgoods,\ then\ it\ passes\ the\ city\r\n\ desired\ to\ the\ input\ method\ class\ which\ will\ run\ the\ method.\r\n\ \r\n\ This\ method\ asks\ the\ user\ for\ another\ command.\r\n
+comment6.params=item
+comment6.target=void\ commandFindCities(java.lang.String)
+comment6.text=\r\n\ If\ the\ user\ put\ in\ the\ command\ findcities,\ then\ it\ passes\ the\ item\r\n\ desired\ to\ the\ input\ method\ class\ which\ will\ run\ the\ method.\r\n\ \r\n\ This\ method\ asks\ the\ user\ for\ another\ command.\r\n
+comment7.params=city
+comment7.target=void\ commandAddCity(java.lang.String)
+comment7.text=\r\n\ If\ the\ user\ put\ in\ the\ command\ add,\ then\ it\ takes\ in\ the\ city\:\ city\ to\ add\r\n\ format\ and\ creates\ a\ new\ city\ in\ the\ city\ container\ for\ when\ the\ simulation\ wil\r\n\ run\ next.\r\n\ \r\n\ To\ show\ to\ the\ user\ that\ the\ city\ was\ properly\ added\ to\ the\ city\ container,\ \r\n\ the\ city\ objects\ in\ the\ city\ container\ are\ turned\ into\ their\ string\ name\r\n\ and\ stored\ into\ a\ temporaroy\ array\ list\ which\ prints\ out\ all\ the\ cities\r\n\ including\ the\ new\ one.\r\n
+numComments=8

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ExperimentController()
+comment0.text=\r\n\ The\ method\ where\ everything\ is\ run.\r\n\ The\ initial\ currentTime\ is\ the\ time\ the\ market\ opens,\ 0\ seconds.\r\n\ While\ the\ current\ time\ is\ less\ than\ 14400\ seconds,\ or\ 4\ hours,\ \:\r\n\ the\ current\ time\ increments\ by\ one,\ the\ arrival\ time\ generator\ is\ called\r\n\ which\ creates\ an\ arrivla\ time\ and\ based\ on\ that\ time,\ the\ customers\ are\ produced.\r\n\ The\ produced\ customers\ with\ their\ list\ of\ needs\ are\ put\ through\ several\ queue\ methods\r\n\ to\ decide\ which\ queues\ they\ need\ to\ get\ one\ dpeending\ n\ their\ needs.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ ArrivalTime()
+comment1.text=\r\n\ Method\ that\ calls\ the\ customer\ class's\ getGaussian\ method\ to\ randomly\ produce\r\n\ arrival\ times\ for\ the\ customers\ based\ on\ the\ mean\ and\ standard\ deivation\r\n\ the\ next\ arrival\ time\ of\ the\ customer\ is\ whatever\ number\ produced\ plus\ the\ current\ time\r\n\ \r\n
+comment2.params=
+comment2.target=void\ CustomerGenerator()
+comment2.text=\r\n\ Method\ that\ produced\ random\ id\ numbers\ from\ 0\ to\ 100\ for\ the\ customers\ to\ keep\ track\ of\ them\r\nGenerates\ an\ array\ list\ of\ needs\ and\ assigns\ a\ new\ random\ ish\ list\ to\ each\ customer\r\nCreates\ the\ customer\ object\r\n\ \r\n
+comment3.params=
+comment3.target=int\ getId()
+comment3.text=\r\n\ This\ method\ return\ the\ randomly\ produced\ id\ number\ of\ each\ customer.\r\n\ \r\n\ @return\ id\ number\r\n
+comment4.params=
+comment4.target=java.lang.Object\ getCustomer()
+comment4.text=\r\n\ This\ method\ returns\ the\ customer\ object\ created\ in\ the\ customergenerator\ method\r\n\ @return\ customer\ object\r\n\ \r\n
+numComments=5

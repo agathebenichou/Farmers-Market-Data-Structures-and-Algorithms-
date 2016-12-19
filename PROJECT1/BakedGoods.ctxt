@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BakedGoods()
+comment0.text=\r\n\ The\ Constructor\ that\ instantiates\ the\ Queue\ with\ a\ Linked\ List\ of\ Type\ E,\ Object\ in\ this\ project.\ \r\n
+comment1.params=mean\ variance
+comment1.target=double\ getGaussian(double,\ double)
+comment1.text=\r\n\ A\ method\ that\ calculates\ a\ random\ number\ based\ on\ a\ mean\ and\ a\ variance.\ \r\n\ \r\n\ @param\ The\ mean\ of\ the\ data.\r\n\ @param\ The\ variance\ of\ the\ data.\ \r\n\ \r\n\ @return\ The\ random\ number\ that\ is\ generated\ and\ casted\ by\ an\ int\ from\ the\ method.\r\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ A\ method\ that\ returns\ the\ size\ of\ the\ Queue\ at\ any\ instance.\ \r\n\ \r\n\ @return\ The\ size\ of\ the\ array\r\n
+comment3.params=
+comment3.target=java.util.Iterator\ iterator()
+comment3.text=\r\n\ A\ method\ that\ iterators\ through\ the\ Queue\r\n\ \r\n\ @return\ the\ iterated\ list\ of\ type\ E\r\n
+comment4.params=
+comment4.target=java.lang.Object\ peek()
+comment4.text=\r\n\ A\ method\ that\ returns\ (peeks)\ BUT\ DOES\ NOT\ REMOVE\ the\ first\ item\ in\ the\ Queue.\r\n\ \r\n\ @return\ The\ first\ element\ of\ the\ queue.\r\n
+comment5.params=
+comment5.target=java.lang.Object\ poll()
+comment5.text=\r\n\ A\ method\ that\ returns\ and\ removes\ the\ first\ item\ in\ the\ Queue.\r\n\ \r\n\ @return\ The\ first\ element\ of\ the\ queue.\r\n
+comment6.params=e
+comment6.target=boolean\ offer(java.lang.Object)
+comment6.text=\r\n\ A\ method\ that\ inserts\ an\ Element\ of\ AnyType\ to\ the\ back\ of\ the\ Queue.\r\n\ \r\n\ @returns\ True\ or\ false\ depending\ on\ if\ the\ element\ was\ able\ to\ be\ inserted\ into\ the\ Queue.\ \r\n
+numComments=7

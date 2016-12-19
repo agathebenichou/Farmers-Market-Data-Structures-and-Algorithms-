@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityContainerTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ CityContainerTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ addCityTest()
+comment3.text=\r\n\ A\ test\ method\ that\ asserts\ that\ all\ cities\ are\ being\ added\r\n
+comment4.params=
+comment4.target=void\ cityContainerTest()
+comment4.text=\r\n\ A\ test\ method\ that\ tests\ that\ the\ totalCityList\ method\ is\ not\ returning\r\n\ null\ after\ cities\ have\ been\ added\ and\ that\ the\ getcontainersize\r\n\ method\ is\ returning\ the\ size\ of\ the\ number\ of\ cities\ that\ have\ been\r\n\ added\r\n
+comment5.params=
+comment5.target=void\ getCityIntTest()
+comment5.text=\r\n\ A\ test\ method\ that\ tests\ the\ getCity\ method\ to\ see\ that\ it\ does\ not\ return\r\n\ a\ null\ object,\ that\ two\ objects\ at\ two\ indexs\ are\ not\ the\ same\ and\ that\ two\ objects\r\n\ at\ the\ same\ index\ are\ the\ same\ \r\n
+comment6.params=
+comment6.target=void\ randomlyAssignCityTest()
+comment6.text=\r\n\ A\ test\ method\ that\ tests\ that\ the\ randomlyassigncitymethod\ is\ not\ returning\ null\r\n\ when\ cities\ have\ been\ added\ to\ the\ container\ and\ the\ method\ tries\ to\ assign\r\n\ a\ city\r\n
+numComments=7

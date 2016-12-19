@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GraphGeneratorContainer()
+comment1.params=startingCity\ endingCity\ weight
+comment1.target=void\ createGraph(int,\ int,\ double)
+comment1.text=\r\n\ Method\ which\ creates\ a\ graph\ using\ methods\ from\ UnDirectedGraph\ class\r\n\ \r\n\ @param\ The\ starting\ city,\ the\ ending\ city\ and\ the\ weight\ inbetween\ the\ cities.\r\n
+numComments=2

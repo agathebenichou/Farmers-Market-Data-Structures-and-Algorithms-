@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cityName
+comment0.target=City(java.lang.String)
+comment0.text=\r\n\ The\ City\ Constructor\ which\ takes\ in\ the\ name\ of\ the\ city.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getCityName()
+comment1.text=\r\n\ \ A\ getter\ method\ for\ the\ name\ of\ the\ City;\r\n\ \ \r\n\ \ @return\ the\ String\ name\ of\ the\ city.\r\n
+numComments=2

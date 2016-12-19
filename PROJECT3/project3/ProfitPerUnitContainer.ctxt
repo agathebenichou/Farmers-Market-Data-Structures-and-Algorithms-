@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ProfitPerUnitContainer()
+comment0.text=\r\n\ The\ class\ constructor\ which\ initializes\ the\ data\ structure\r\n
+comment1.params=good\ profit
+comment1.target=boolean\ addProfit(java.lang.String,\ int)
+comment1.text=\r\n\ This\ method\ adds\ goods\ and\ their\ profits\ to\ the\ data\ structure.\r\n\ \r\n\ @param\ The\ good\ and\ the\ profit\ that\ you\ are\ adding\ to\ the\ data\ structure\r\n\ @return\ True\ upon\ successful\ insertion\r\n
+comment2.params=good
+comment2.target=int\ getProfit(java.lang.String)
+comment2.text=\r\n\ This\ method\ returns\ the\ profit\ of\ the\ good\ specified\r\n\ \r\n\ @param\ The\ good\ whose\ profit\ you\ want\r\n\ @return\ The\ profit\ of\ the\ good\ specified\r\n
+numComments=3

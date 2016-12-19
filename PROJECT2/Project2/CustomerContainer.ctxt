@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CustomerContainer()
+comment0.text=\r\n\ The\ class\ constructor\ which\ generates\ the\ customers\ and\r\n\ stores\ the\ customers\ generated\ into\ a\ List\ and\ into\r\n\ a\ Queue.\r\n\ \r\n\ The\ people\ Queue\ is\ used\ get\ all\ the\ customers\ and\ to\ \r\n\ measure\ the\ size.\r\n\ \r\n\ the\ peopletofpull\ queue\ is\ actually\ pulling\ out\ customers\ from\r\n\ the\ queue\ and\ putting\ them\ through\ the\ sorting\ methods\ in\r\n\ other\ classes.\r\n
+comment1.params=
+comment1.target=java.util.LinkedList\ getCust()
+comment1.text=\r\n\ A\ getter\ method\ which\ returns\ the\ entire\ list\ of\r\n\ Customers\ Generated.\r\n\ \r\n\ @return\ the\ LinkedList\ of\ Customers\ generated.\r\n
+comment2.params=
+comment2.target=int\ listAmount()
+comment2.text=\r\n\ A\ getter\ method\ whcih\ returns\ the\ size\ of\ the\ list\r\n\ of\ the\ Customers\ Generated.\r\n\ \r\n\ @return\ the\ number\r\n
+comment3.params=
+comment3.target=Customer\ pullCustomer()
+comment3.text=\r\n\ A\ getter\ method\ which\ returns\ the\ Customer\ at\ the\ front\r\n\ of\ the\ Queue\ when\ called.\r\n\ \r\n\ @return\ Customer\r\n
+numComments=4

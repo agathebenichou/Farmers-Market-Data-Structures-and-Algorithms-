@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NeedContainer()
+comment0.text=\r\n\ The\ NeedContainer\ constructor\ instatiates\ the\ Need\ obkecy\ class\r\n\ and\ it\ creates\ object\ instances\ of\ each\ need.\r\n
+comment1.params=
+comment1.target=java.util.LinkedList\ list()
+comment1.text=\r\n\ This\ getter\ method\ returns\ the\ total\ list\ of\ needs\r\n\ \r\n\ @return\ LinkedList\ which\ stores\ Need\ objects\ a\ customer\ could\ have\r\n
+comment2.params=
+comment2.target=int\ listSize()
+comment2.text=\r\n\ This\ getter\ method\ returns\ the\ size\ of\ the\ total\ list\ of\ needs,\ \r\n\ which\ is\ always\ 6.\r\n\ \r\n\ @return\ the\ Integer\ of\ list\ of\ needs\r\n
+numComments=3

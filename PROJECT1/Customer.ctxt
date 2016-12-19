@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Customer()
+comment0.text=\r\n\ \r\n\ customer\ constructor\ used\ in\ experiment\ controller\ class\ to\ call\ the\ getGaussian\ method\ \r\n
+comment1.params=iD\ arrivalTime\ needs
+comment1.target=Customer(int,\ int,\ java.util.ArrayList)
+comment1.text=\r\nThe\ Customer\ constructor\ with\ parameters.\ This\ constructor\ is\ used\ in\ the\ Experiment\ Controller\ class\ to\ create\ a\ \r\nCustomer\ object\ when\ the\ randomly\ generated\ arrival\ time\ is\ equal\ to\ the\ current\ time.\ \r\n\r\nThis\ Constructor\ is\ proved\ that\ is\ works\ by\ printing\ out\ that\ the\ Customer\ has\ arrived\ to\ the\ market.\ \r\n\r\n@param\ -\ randomly\ produced\ customer\ id\ number\r\n@param\ -\ the\ arrival\ time\ produced\r\n@param\ -\ the\ Array\ List\ of\ needs\ that\ each\ customer\ is\ randomly\ assigned\ as\ they\ enter\ the\ market\r\n
+comment2.params=mean\ variance
+comment2.target=double\ getGaussian(double,\ double)
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=needContainer
+comment0.target=LocationContainer(NeedContainer)
+comment0.text=\r\n\ The\ class\ Contstructor\ which\ creates\ the\ main\ data\ structure\r\n\ \r\n\ For\ every\ item\ in\ the\ NeedsContainer\ data\ structure,\ give\ that\ key\ a\ new\ linked\ list.\r\n
+comment1.params=item\ itemLocation
+comment1.target=boolean\ addLocation(java.lang.String,\ int)
+comment1.text=\r\n\ A\ method\ that\ adds\ locations\ to\ the\ main\ data\ structure\r\n\ Takes\ the\ item\ to\ search\ for\ the\ key\ in\ the\ hash\ map\ and\ then\ adds\ the\r\n\ location\ to\ that\ keys\ linked\ list\r\n\ \r\n\ @param\ The\ STring\ item\ that\ is\ the\ key\ and\ the\ int\ City\ location\ that\ will\r\n\ be\ added\ to\ the\ key\r\n\ @return\ True\ if\ insertion\ has\ been\ successful\ or\ false\ if\ insertion\ has\ failed\r\n
+comment2.params=good
+comment2.target=java.util.LinkedList\ getLocationsOfNeed(java.lang.String)
+comment2.text=\r\n\ A\ method\ that\ returns\ all\ the\ locations\ in\ a\ linked\ list\ of\ an\ item\r\n\ \r\n\ @param\ The\ good\ whose\ linked\ list\ of\ locations\ you\ want\ to\ return\r\n
+comment3.params=good\ index
+comment3.target=int\ getLocationsOfNeedSpecific(java.lang.String,\ int)
+comment3.text=\r\n\ A\ method\ that\ returns\ the\ location\ of\ the\ warehouse\ for\ a\ specific\ good\r\n\ at\ a\ speific\ location\ in\ the\ linked\ list\r\n\ \r\n\ @param\ The\ String\ good\ of\ warehouse\ location\ you\ are\ looking\ for\ and\ the\ Integer\r\n\ index\ of\ the\ city\ location\r\n\ @return\ The\ warehouse\ location\r\n
+comment4.params=good
+comment4.target=int\ getAmountOfLocationsForNeed(java.lang.String)
+comment4.text=\r\n\ A\ method\ that\ returns\ the\ size\ of\ the\ linked\ list,\ the\ amount\ of\ warehouse\r\n\ locations\ a\ need\ contains\r\n\ \r\n\ @param\ The\ String\ good\ whose\ amount\ of\ locations\ you\ want\r\n\ @return\ The\ integer\ size\ of\ the\ Linked\ List\r\n
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=city\ graphGenerator\ profitContainer\ warehouseContainer
+comment0.target=ReadFile(CityContainer,\ GraphGeneratorContainer,\ ProfitPerUnitContainer,\ LocationContainer)
+comment0.text=\r\n\ The\ Constructor\ which\ calls\ all\ the\ methods\ in\ the\ class.\r\n\ First\ it\ initiaizes\ the\ TreeSet\ data\ structure\ using\ the\ Team\ Objects\ to\ be\ \r\n\ stored\ and\ inside\ and\ it\ sorts\ is\ using\ the\ TeamComparator\ ckass.\r\n\ \r\n\ It\ calls\ the\ openFile\ method\ and\ stores\ the\ Scanner\ retrieved\ into\ the\ Scanner\r\n\ open\ variable.\r\n\ \r\n\ It\ parses\ the\ Scanner\ using\ the\ parseFile\ method.\r\n
+comment1.params=file
+comment1.target=java.util.Scanner\ openFile(java.lang.String)
+comment1.text=\r\n\ This\ method\ takes\ in\ the\ name\ of\ the\ File\ to\ be\ opened\ using\ a\ scanner\ and\ \r\n\ outputs\ the\ Scanner\ object.\r\n\ \r\n\ @param\ the\ String\ name\ of\ the\ file\r\n\ @return\ the\ Scanner\ object\ if\ successful\r\n\ @return\ null\ if\ unsuccessful.\r\n
+comment2.params=all\ city\ graphGenerator
+comment2.target=void\ parseFileCityMap(java.util.Scanner,\ CityContainer,\ GraphGeneratorContainer)
+comment2.text=\r\n\ A\ method\ which\ reads\ the\ citymap.txt\ file\ and\ stores\ and\ information\ appropriately\r\n\ While\ the\ txt\ file\ has\ a\ next,\ the\ first\ String\ is\ the\ starting\ city\ and\ the\ second\ String\ is\r\n\ the\ ending\ city\ and\ the\ next\ value\ is\ the\ weight\ ofthe\ edge\ between\ those\r\n\ cities\r\n\ Stores\ the\ information\ into\ variables\ and\ creates\ the\ graph\ using\ the\ GraphGenerator\ class\r\n\ \r\n\ @param\ the\ Scanner\ object\r\n
+comment3.params=all\ profitContainer
+comment3.target=void\ parseFileGoods(java.util.Scanner,\ ProfitPerUnitContainer)
+comment3.text=\r\n\ A\ method\ which\ reads\ the\ goods.txt\ file\ and\ stores\ the\ information\ appropriately.\r\n\ While\ the\ txt\ file\ has\ a\ next,\ the\ first\ String\ is\ the\ name\ of\ the\ need\ and\ the\ second\ string\r\n\ is\ the\ amount\ of\ profit\ per\ unit\ for\ that\ need.\r\n\ Stores\ that\ information\ into\ variables\ and\ stores\ it\ into\ the\ ProfitPerUnitContainer\ class\r\n\ \r\n\ @param\ the\ Scanner\ object\r\n
+comment4.params=all\ warehouseContainer
+comment4.target=void\ parseFileLocations(java.util.Scanner,\ LocationContainer)
+comment4.text=\r\n\ A\ method\ which\ reads\ the\ locations.txt\ file\ and\ stores\ the\ information\ appropriately\r\n\ While\ the\ txt\ file\ has\ a\ next,\ the\ first\ String\ is\ the\ name\ of\ the\ need\r\n\ and\ the\ second\ string\ is\ the\ city\ location\ of\ the\ need\r\n\ Stores\ the\ information\ into\ variables\ and\ stores\ the\ variables\ into\ the\ locationscontainer\ class\r\n\ \r\n\ @param\ the\ Scanner\ object\r\n
+numComments=5

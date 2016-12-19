@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LocationContainerTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ LocationContainerTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ addLocationTest()
+comment3.text=\r\n\ A\ test\ method\ that\ tests\ that\ the\ addLocation\ method\ is\ successfully\r\n\ returning\ true\ upon\ insertion.\ \r\n
+comment4.params=
+comment4.target=void\ getLocationsOfNeedTest()
+comment4.text=\r\n\ This\ test\ method\ asserts\ that\ the\ getLocationsOfNeed\ method\ is\ returning\r\n\ not\ null.\ It\ returns\ the\ Linked\ List\ of\ Integer\ locations\ where\ the\r\n\ warehouses\ are\ stored.\r\n
+comment5.params=
+comment5.target=void\ getAmountOfLocationsForNeedTest()
+comment5.text=\r\n\ This\ test\ mathos\ asserts\ that\ the\ getAmountOfLocationsForNeed\ method\r\n\ is\ returning\ not\ null\ and\ that,\ for\ the\ container\ in\ this\ test\ class,\ \r\n\ the\ amount\ of\ locations\ is\ 5\r\n
+numComments=6

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=cityContainer
+comment0.target=CustomerContainer(CityContainer)
+comment0.text=\r\n\ The\ class\ constructor\ which\ initalizies\ the\ Customer\ Container\r\n\ data\ structure\ and\ calls\ the\ Customer\ Generator\ class\ to\ \r\n\ fill\ the\ container.\ Calls\ the\ fill\ Container\ method.\r\n
+comment1.params=cityContainer
+comment1.target=void\ fillContainer(CityContainer)
+comment1.text=\r\n\ Method\ which\ fills\ CustomerContainer.\r\n\ Randomly\ creates\ a\ number\ with\ a\ Gaussian\ distribution\ given\ by\ intructor.\r\n\ For\ that\ number\ of\ customers,\ call\ the\ customer\ generator\ method\ in\ the\ Customer\r\n\ Generator\ class\ and\ fill\ the\ CustomerContainer\ data\ structure.\r\n\ Do\ this\ 10\ times\ to\ get\ ~200x10\ \=\ 2000\ customers\ to\ properly\ fill\ \r\n\ all\ the\ cities.\r\n\ \r\n\ @param\ The\ CityContainer\ class\ which\ is\ used\ in\ the\ Customer\ Generator\ class.\r\n
+comment2.params=custom
+comment2.target=boolean\ addCustomer(Customer)
+comment2.text=\r\n\ An\ insertion\ method\ which\ adds\ a\ Customer\ object\ to\ the\ Customer\r\n\ Container\ data\ structure.\r\n\ \r\n\ @param\ The\ Customer\ object\ to\ add\r\n\ @return\ True\ is\ insertion\ is\ successfull\ and\ false\ if\ insertion\r\n\ is\ not\ successful.\r\n
+comment3.params=
+comment3.target=java.util.LinkedList\ getCustList()
+comment3.text=\r\n\ A\ getter\ method\ which\ returns\ the\ entire\ list\ of\r\n\ Customers\ Generated.\r\n\ \r\n\ @return\ the\ LinkedList\ of\ Customers\ generated.\r\n
+comment4.params=
+comment4.target=int\ getCustListSize()
+comment4.text=\r\n\ A\ getter\ method\ whcih\ returns\ the\ size\ of\ the\ list\r\n\ of\ the\ Customers\ Generated.\r\n\ \r\n\ @return\ The\ number\ of\ customers\ generated\ and\ that\ are\r\n\ stored\ inside\ the\ CustomerContainer\r\n
+comment5.params=index
+comment5.target=Customer\ getCustomer(int)
+comment5.text=\r\n\ This\ method\ returns\ a\ Customer\ object\ at\ a\ specified\ index\r\n\ \r\n\ @param\ The\ integer\ index\ whose\ Customer\ object\ you\ want\r\n\ @return\ The\ Customer\ object\ that\ is\ at\ the\ specified\ index\r\n
+numComments=6
